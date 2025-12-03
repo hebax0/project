@@ -84,3 +84,64 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+body {
+    background: #ffffff;
+}
+  .navbar {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.icons span {
+    margin-left: 15px;
+    cursor: pointer;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 10px;
+    background: #f8ffff;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.feature-box {
+    background: white;
+    padding: 25px;
+    width: 260px;             
+    text-align: center;
+    border: 1px solid #c8e6e6;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(34, 193, 195, 0.25);
+}
+.feature-box .icon {
+    width: auto;
+    height: auto;
+    background: none;   
+    border-radius: 0;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px auto;
+}
+
+.feature-box .icon i {
+    font-size: 30px;
+    color: #22c1c3; 
+}
