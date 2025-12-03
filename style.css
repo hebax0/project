@@ -145,3 +145,23 @@ body {
     font-size: 30px;
     color: #22c1c3; 
 }
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 40px;
+    align-items: center;
+}
+
+.about-img img {
+    width: 520px;
+    max-width: 100%;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
