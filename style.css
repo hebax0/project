@@ -217,3 +217,48 @@ body {
   background: #999;
   border-radius: 10px;
 }
+.book_card{
+  width: 200px;
+  text-align: center;
+  padding-bottom: 10px ;
+  border: 1px solid  rgb(159, 159, 159);
+   justify-content: space-around;
+   
+}
+.book_card:hover{
+box-shadow:0px 0px 2px #0097A7;
+}
+.book_card img{
+  width: 150px;
+  margin-left:0px;
+ padding: 60px 0px 10px 0px;
+}
+.book_card h4{
+  font-size: 20px;
+  margin-bottom: 5px ;
+}
+.book_card p{
+font-size: 15px;
+color : rgb(150, 150, 150);
+margin-bottom: 5px;
+}
+.book_card span{
+  font-size: 15px;
+  color: #0097A7;
+ 
+}
+.book_card h5{
+  font-size: 17px;
+  margin-top: 10px;
+  margin-bottom: 5px ;
+}
+.book_card button{
+  background:white;
+  color: black;
+  padding: 10px 35px;
+  border:  solid  #22c1c3;
+  font-size: 15px;
+  cursor: pointer;
+    margin-bottom: 5px ;
+
+}
