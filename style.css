@@ -188,3 +188,20 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+.allbook{
+   display: flex;
+   justify-content: space-around;
+   overflow-x: auto;      
+   overflow-y: hidden;
+   margin:0px 100px 0px 100px;
+   padding: 10px 0px 10px 15px;
+     border: 1px solid white ;
+   scroll-behavior: smooth;
+    white-space: nowrap; 
+}
+.books_section{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 15px 10px 15px;
+  flex-shrink: 0;
+}
