@@ -262,3 +262,33 @@ margin-bottom: 5px;
     margin-bottom: 5px ;
 
 }
+.new_arrivals{
+   display: flex;
+   justify-content: space-around;
+   margin-right: 
+}
+.arrivals_card{
+   width: 250px;
+   height: 370px;
+  text-align: center;
+  padding-bottom: 0px ;
+  border: 1px solid  rgb(159, 159, 159);
+   justify-content: space-around;
+  
+}
+.arrivals_card:hover{
+box-shadow:0px 0px 2px #0097A7;
+}
+.arrivals_card img{
+  width: 150px;
+  margin-left:0px;
+ padding: 60px 0px 10px 0px;
+}
+.arrivals_card img:hover{
+   width: 155px;
+}
+
+.arrivals_card h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  margin-bottom: 10px;
+}
