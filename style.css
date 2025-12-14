@@ -79,6 +79,24 @@ body {
   font-size: 18px;
   cursor: pointer; 
 }
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:350px 100px  300px ;
+  
+
+  background: linear-gradient(
+      rgba(255,255,255,0.85),
+      rgba(255,255,255,0.85)
+    ),
+    url("image/about.png");
+
+  background-size : 70%;;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .image-box img{
   width: 700px;
   border-radius: 10px;
